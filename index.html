@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Helper</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Profile Helper</h1>
+    <form id="bioForm">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="interests">Your Interests:</label>
+      <input type="text" id="interests" placeholder="Fishing, comedy, dogs...">
+
+      <label for="tone">Pick a Tone:</label>
+      <select id="tone">
+        <option value="funny">Funny</option>
+        <option value="confident">Confident</option>
+        <option value="chill">Chill</option>
+        <option value="mysterious">Mysterious</option>
+      </select>
+
+      <button type="submit">Generate Bio</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
